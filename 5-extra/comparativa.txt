@@ -1,0 +1,4 @@
+# Comparativa entre distintos tipos de pipeline
+- Funcional: transforma datos en memoria
+- De datos: se usa para ETL
+- CI/CD: automatiza pruebas y despliegues

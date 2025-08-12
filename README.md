@@ -1,0 +1,3 @@
+# 🧪 Introducción a Pipelines en Programación
+Este repositorio fue creado para enseñar desde cero qué es un pipeline en programación...
+(Contenido completo ya explicado)
