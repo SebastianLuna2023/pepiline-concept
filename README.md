@@ -23,18 +23,6 @@ Un *pipeline* es una **serie de pasos que se ejecutan en orden**, donde la **sal
 
 ---
 
-
-💡 Objetivo del Repo
-Ayudar a una persona sin experiencia previa en pipelines a entender:
-
-Qué es un pipeline.
-
-Por qué se usa.
-
-Cómo construir uno desde cero.
-
-Cómo se ve un pipeline en la vida real (programación funcional, automatización, procesamiento de datos, CI/CD).
-
 pipeline-concept/
 ├── README.md
 ├── .gitignore
@@ -54,7 +42,6 @@ pipeline-concept/
 │   └── comparativa.txt
 └── assets/
     └── pipeline-diagram.png
-
 
 ## 🛠️ Requisitos
 
