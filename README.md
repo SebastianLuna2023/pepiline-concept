@@ -1,28 +1,36 @@
 # 🧪 Introducción a Pipelines en Programación
 
-Este repositorio fue creado para **enseñar desde cero** qué es un **pipeline en programación**, cómo funciona y dónde se aplica
+Bienvenido a este repositorio diseñado para **explicar desde cero** qué es un *pipeline* en programación: cómo funciona, para qué sirve y cómo podés implementarlo en distintos contextos, paso a paso y con ejemplos simples.
+
+---
 
 ## 🧠 ¿Qué es un pipeline?
 
-Un *pipeline* es una **serie de pasos que se ejecutan en orden**, donde la **salida de un paso es la entrada del siguiente**.
+Un **pipeline** es una **serie de pasos conectados**, donde la **salida de un paso se convierte en la entrada del siguiente**.
 
-🧼 Imaginá una cinta transportadora en una fábrica: cada estación hace algo distinto con el producto hasta terminarlo.
-
----
-
-## 🔎 Contenido del repo
-
-| Carpeta | Contenido | Descripción |
-|--------|-----------|-------------|
-| `1-fundamentos` | Explicación y funciones encadenadas | Introducción paso a paso |
-| `2-programacion-funcional` | Pipeline con funciones reutilizables | Cómo construir tu propia "tubería" de código |
-| `3-pipeline-datos` | Pipeline de limpieza y análisis de datos | Un ejemplo aplicado a un archivo CSV |
-| `4-ci-cd` | Automatización con GitHub Actions | Cómo se usan pipelines en proyectos reales |
-| `5-extra` | Comparativas y usos reales | Diferencias entre tipos de pipelines |
-| `assets` | Diagrama visual | Imagen para ayudarte a entender todo |
+> 🧼 Imaginá una cinta transportadora en una fábrica: cada estación realiza una tarea sobre el producto hasta obtener el resultado final.  
+> Así funcionan los pipelines en programación: transforman datos paso a paso.
 
 ---
 
+## 📦 Estructura del repositorio
+
+Este proyecto está organizado por niveles de complejidad, desde conceptos básicos hasta ejemplos más avanzados.
+
+| Carpeta                     | Contenido                             | Descripción                                                                 |
+|----------------------------|---------------------------------------|-----------------------------------------------------------------------------|
+| `1-fundamentos/`           | Introducción con funciones simples     | Explica el concepto básico con ejemplos paso a paso.                        |
+| `2-programacion-funcional/`| Pipeline funcional                     | Cómo componer funciones encadenadas al estilo *functional programming*.     |
+| `3-pipeline-datos/`        | Procesamiento de datos                 | Limpieza, transformación y análisis de datos de un archivo CSV.             |
+| `4-ci-cd/`                 | Automatización (CI/CD) con GitHub     | Un pipeline de integración continua real con GitHub Actions.               |
+| `5-extra/`                 | Comparaciones y casos reales          | Diferencias entre tipos de pipelines y ejemplos en la vida real.            |
+| `assets/`                  | Diagrama visual                       | Ilustración que muestra cómo fluye un pipeline paso a paso.                 |
+
+---
+
+## 📁 Estructura de carpetas
+
+```bash
 pipeline-concept/
 ├── README.md
 ├── .gitignore
@@ -42,6 +50,8 @@ pipeline-concept/
 │   └── comparativa.txt
 └── assets/
     └── pipeline-diagram.png
+
+---
 
 ## 🛠️ Requisitos
 
