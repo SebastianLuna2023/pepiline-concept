@@ -29,7 +29,6 @@ Este proyecto está organizado por niveles de complejidad, desde conceptos bási
 ---
 
 ## 📁 Estructura de carpetas
-
 ```bash
 pipeline-concept/
 ├── README.md
@@ -50,7 +49,7 @@ pipeline-concept/
 │   └── comparativa.txt
 └── assets/
     └── pipeline-diagram.png
-
+```
 ---
 
 ## 🛠️ Requisitos
