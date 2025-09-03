@@ -17,18 +17,19 @@ Un **pipeline** es una **serie de pasos conectados**, donde la **salida de un pa
 
 Este proyecto está organizado por niveles de complejidad, desde conceptos básicos hasta ejemplos más avanzados.
 
-| Carpeta                     | Contenido                             | Descripción                                                                 |
-|----------------------------|---------------------------------------|-----------------------------------------------------------------------------|
-| `1-fundamentos/`           | Introducción con funciones simples     | Explica el concepto básico con ejemplos paso a paso.                        |
-| `2-programacion-funcional/`| Pipeline funcional                     | Cómo componer funciones encadenadas al estilo *functional programming*.     |
-| `3-pipeline-datos/`        | Procesamiento de datos                 | Limpieza, transformación y análisis de datos de un archivo CSV.             |
-| `4-ci-cd/`                 | Automatización (CI/CD) con GitHub     | Un pipeline de integración continua real con GitHub Actions.               |
-| `5-extra/`                 | Comparaciones y casos reales          | Diferencias entre tipos de pipelines y ejemplos en la vida real.            |
-| `assets/`                  | Diagrama visual                       | Ilustración que muestra cómo fluye un pipeline paso a paso.                 |
+| Carpeta                       | Contenido                             | Descripción                                                                 |
+|-------------------------------|---------------------------------------|-----------------------------------------------------------------------------|
+| `1-fundamentos/`             | Introducción con funciones simples     | Explica el concepto básico con ejemplos paso a paso.                        |
+| `2-programacion-funcional/`  | Pipeline funcional                     | Cómo componer funciones encadenadas al estilo *functional programming*.     |
+| `3-pipeline-datos/`          | Procesamiento de datos                 | Limpieza, transformación y análisis de datos de un archivo CSV.             |
+| `4-ci-cd/`                   | Automatización (CI/CD) con GitHub      | Un pipeline de integración continua real con GitHub Actions.                |
+| `5-extra/`                   | Comparaciones y casos reales           | Diferencias entre tipos de pipelines y ejemplos en la vida real.            |
+| `6-pipeline-jpa/`            | Pipeline con Spring Boot + JPA         | Ejemplo de pipeline en un proyecto real con Java, Spring Boot y JPA.        |
 
 ---
 
 ## 📁 Estructura de carpetas
+
 ```bash
 pipeline-concept/
 ├── README.md
@@ -47,14 +48,8 @@ pipeline-concept/
 │           └── pipeline-ci.yml
 ├── 5-extra/
 │   └── comparativa.txt
-└── assets/
-    └── pipeline-diagram.png
-```
----
-
-## 🛠️ Requisitos
-
-Solo necesitás tener Python 3 instalado. No se usa nada complejo.
-
-```bash
-python --version
+└── 6-pipeline-jpa/
+    ├── pom.xml
+    ├── README.md
+    └── src/
+        └── main/java/com/example/pipeline/...
