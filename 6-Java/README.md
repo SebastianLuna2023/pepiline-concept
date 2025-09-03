@@ -1,15 +1,4 @@
-# Pipeline Demo con Spring Boot + JPA
-
-Este proyecto es un **ejemplo básico** de cómo implementar el **patrón Pipeline** usando **Spring Boot** y **JPA**.
-
----
-
-## 📌 ¿Qué es el patrón Pipeline?
-
-Es un patrón de diseño donde una operación se divide en **etapas independientes** llamadas *steps*.  
-Cada *step* transforma el dato y lo pasa al siguiente, hasta completar el flujo.
-
----
+# Pipeline Spring Boot + JPA
 
 ## ⚙️ Tecnologías usadas
 
